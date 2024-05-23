@@ -13,4 +13,4 @@ for(let i=0;i<x.length; i++){
 
   }
 console.log(evennumber);
-console.log(oddnumber);t
+console.log(oddnumber);
