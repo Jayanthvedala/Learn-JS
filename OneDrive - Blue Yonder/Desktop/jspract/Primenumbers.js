@@ -1,6 +1,6 @@
 primeSort([2, 5, 7445, 78, 13, 9, 20])
 function primeSort(arr){
-    let primeNumber = [];
+    let primeNumbers = [];
     arr.forEach((num)=>{
         let factors = 0;
         for(let i = 0; i <= num; i++){
@@ -9,9 +9,9 @@ function primeSort(arr){
             } 
         }
         if(factors == 2){
-            primeNumber.push(num)
+            primeNumbers.push(num)
         }
     })
-console.log(primeNumber)
+console.log(primeNumbers)
 }
 
